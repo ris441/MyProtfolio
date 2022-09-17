@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+.sidebar{
+    background-color: rgb(169, 189, 188);
+    /* background-color: red; */
+    width: 200px;
+    height:100vh;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+.sidebar nav{
+    padding: 25px;
+}
+.sidebar nav li{
+    padding: 33px 0;
+    font-size: 20px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(49, 45, 45);
+}
+.container{
+    display: flex;
+}
+
+.main{
+    display: block;
+    /* background-color: yellow; */
+    background-color: rgb(247, 246, 238);
+    width:85vw;
+    padding: 20px;
+}
+.infoContainer{
+    /* background-color: rgb(68, 185, 134); */
+    height: 68vh;
+    width: 80w;
+    display: flex;
+    margin: 10px auto;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 50px ;
+    font-family: 'Source Code Pro', monospace;
+    
+}
+.devpic img{
+    height: 70vh;
+    /* box-shadow: 2px 2px 5px grey; */
+    margin-right: 300px;
+    
+}
+.hey{
+    color: rgb(29, 29, 29);
+    font-size: 30px;
+    font-weight: 100;
+}
+.iam{
+    font-size: 40px;
+}
+.name{
+    font-size: 40px;
+    font-weight: bold;
+}
+.about{
+    font-size: 30px;
+}
+.moreabout{
+    margin-top: 25px;
+    font-size: 18px;
+}
+.buttons{
+    margin: 40px;
+}
+.buttons button{
+      
+    padding: 10px 13px;
+    border-radius: 18px;
+    font-size: 18px;
+    background-color: rgb(93, 117, 136);
+    color:white;
+    margin: 0 3px;
+    font-weight: bold;
+    cursor: pointer;
+
+    border: 2px solid rgb(117, 117, 152);
+
+
+}
+.buttons button:hover{
+    border: 2px solid rgb(28, 69, 110);
+    background-color: white;
+    color: rgb(93, 117, 136);
+}
+.skill{
+    margin: 10px auto;
+}
+.skill h2{
+    font-family: monospace;
+    font-size: 4vw;
+    color: lightcoral;
+    margin-left: 18vw;
+}
+.logos{
+    border-radius: 3rem;
+    background-color: rgb(230, 211, 211);
+    /* background-color: green; */
+    width: 50vw;
+    height: 85vh;
+    font-family: 'Source Code Pro', monospace;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    margin: 10px 10px;
+    flex-wrap: wrap;
+}
+.logo{
+    margin: 40px 30px;
+    /* background-color: yellow; */
+}
+.logo img{
+    padding: 0% ;
+    margin: 10px 5px;
+    width: 5vw;
+}
+
